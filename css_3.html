@@ -1,0 +1,214 @@
+<html>
+<head>
+<style type="text/css">
+
+
+.header{
+	border-bottom:solid 2px #db2927;
+	width:100%;
+	font-family:tahoma;
+	font-size:13px;
+	color:black;
+	text-align:right;
+	height:75px;
+}
+
+h1{
+	color:#2c286d;
+	font-family:tahoma;
+	font-size:18px;
+        position:relative;
+	right:-350px;
+}
+a{
+	color:blue;
+}
+
+li{
+	list-style:none;
+	padding-bottom:10px;
+}
+
+.form{
+	font-family:tamoha;
+	font-size:13px;
+	color:#6f6f6f;
+}
+
+.box{
+	width:550px;
+	background:#ececec;
+	border:solid 1px #bcbcbc;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:30px;
+	padding-right:30px;
+	position:relative;
+	right:-350px;	
+
+}
+
+.selectbox{
+	background:white;
+	width:360px;
+	height:135px;
+	border:solid 1px #b9b9b9;
+}
+
+.selectbox1{
+	font-family:tamoha;
+	color:#6f6f6f;
+	font-size:13px;
+	width:110px;
+}
+
+.textbox{
+	
+	background:white;
+	width:360px;
+	height:25px;
+	border:solid 1px #b9b9b9;
+}
+
+.labels{
+	
+	display:inline-block;
+	width:100px;
+	float:left;
+	text-align:right;
+	padding-right:20px;
+	font-family:tamoha;
+	font-size:14px;
+	color:black;
+}
+
+.button{
+	position:relative;
+	right:-120px;
+	font-family:tamoha;
+	font-size:14px;
+	color:white;
+	background:#dc2927;
+	border:solid 1px #a10200;
+	width:130px;
+	height:32px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+	<img src="http://dl.dropbox.com/u/17934144/vtapp/vinsol-logo.png" alt="vinsol" align="left"/>
+	<br/><br/><br/>Email us at:<a href="www.sales@vinsol.com">sales@vinsol.com</a> &nbsp; &nbsp;  Skype:<a href="www.vinsol.com">Vinsol</a>
+</div>
+
+<br/>
+<br/>
+
+<h1>Please fill the form below</h1>
+	<div class="box">
+		<form name="my form" action="" method="get" class="form">
+                    <ul>
+                        <li>  
+				<label for="fname" class="labels">First Name</label>
+			        <input type="text" name="name" id="fname" class="textbox"/>
+			</li>
+			
+			<li>
+				<label for="lname" class="labels">Last Name</label>
+				<input type="text" name="lname" id="lname" class="textbox"/>
+			</li>
+
+			<li>
+				<label for="email" class="labels">Email Address</label>
+				<input type="text" name="email" id="email" class="textbox"/>
+			</li>
+
+			<li>
+				<label for="pass" class="labels">Password</label>
+				<input type="password" id="pass" class="textbox"/>
+			</li>
+			
+			<li>
+				<label for="gender" class="labels">Gender</label>
+				<input type="radio" name="sex" id="male" class="radio"/>Male
+				<input type="radio" name="sex" id="female"class="radio"/>Female
+			</li>
+
+			<li>
+				<label for="date" class="labels">Date Of Birth</label>
+				<select class="selectbox1">
+					<option name="date"selected="selected">DD</option>
+					<option name="date">01</option>
+					<option name="date">02</option>
+					<option name="date">03</option>				
+					<option name="date">04</option>
+					<option name="date">05</option>
+					<option name="date">06</option>
+					<option name="date">07</option>
+					<option name="date">08</option>
+					<option name="date">09</option>
+					<option name="date">10</option>
+					<option name="date">11</option>
+					<option name="date">12</option>
+					<option name="date">13</option>
+					<option name="date">14</option>
+					<option name="date">15</option>
+					<option name="date">16</option>
+					<option name="date">17</option>
+					<option name="date">18</option>
+					<option name="date">19</option>
+					<option name="date">20</option>
+					<option name="date">21</option>
+					<option name="date">22</option>
+					<option name="date">23</option>
+					<option name="date">23</option>
+					<option name="date">24</option>
+					<option name="date">25</option>
+					<option name="date">26</option>
+					<option name="date">27</option>
+					<option name="date">28</option>
+					<option name="date">29</option>
+					<option name="date">30</option>
+					<option name="date">31</option>
+				</select>
+	
+				<select class="selectbox1">
+					<option name="month"selected="selected">MM</option>
+					<option name="month">MM</option>					
+					<option name="month">02</option>				
+					<option name="month">03</option>				
+					<option name="month">04</option>				
+					<option name="month">05</option>				
+					<option name="month">06</option>				
+					<option name="month">07</option>				
+					<option name="month">08</option>				
+					<option name="month">09</option>				
+					<option name="month">10</option>				
+					<option name="month">11</option>				
+					<option name="month">12</option>				
+				</select>
+
+				<select class="selectbox1">
+					<option name="year" selected="selected">yy</option>
+					<option name="year">12</option>
+					<option name="year">11</option>
+				</select>				
+			</li>
+
+			<li>
+				<label class="labels">Address</label>
+			    	<textarea name="address" class="selectbox"></textarea>
+			</li>
+
+			<li>
+				<input type="submit" value="submit details" class="button"/>
+			</li>
+		</ul>
+				
+		</form>
+	</div>
+</body>
+</html>
+	
